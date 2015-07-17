@@ -1,0 +1,3 @@
+[submodule "dispatch_cancelable_block"]
+	path = dispatch_cancelable_block
+	url = https://github.com/gviridis/dispatch_cancelable_block.git

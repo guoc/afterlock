@@ -1,0 +1,10 @@
+Package: org.thebigboss.gviridis.afterlock
+Name: AfterLock
+Description: An Activator event dispatched x seconds after device locking.
+Version: 1.0
+Priority: optional
+Section: Addons (Activator)
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, libactivator
+Maintainer: gviridis
+Author: gviridis

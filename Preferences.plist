@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>/Applications/Preferences.app/icon-table@2x.png</string>
+		<key>label</key>
+		<string>After Lock</string>
+	</dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>activatorEvent</key>
+			<string>org.thebigboss.gviridis.afterlock</string>
+			<key>bundle</key>
+			<string>LibActivator</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Assign Actions</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>org.thebigboss.gviridis.afterlock/UpdatePreferences</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>isNumeric</key>
+			<true/>
+			<key>default</key>
+			<string>300</string>
+			<key>defaults</key>
+			<string>org.thebigboss.gviridis.afterlock</string>
+			<key>key</key>
+			<string>kSecondsAfterLock</string>
+			<key>label</key>
+			<string>Seconds After Lock</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>After Lock</string>
+</dict>
+</plist>
